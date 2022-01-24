@@ -25,11 +25,12 @@ const Profile = function(props) {
 
     return (
         <div className='card'>
-            {/* <Navbar title="TEST"/> */}
+            <Navbar title={props.name + " says hi!" } />
             <img className="card--img" src={props.img}/>
             <h1 className="card--name">{props.name}</h1>
             <h3 className="card--title">{props.title}</h3>
             <button onClick={clickedFunction}>Like</button><h4>{number}</h4>
+            <Navbar title={props.name + " says goodbye!" } />
         </div>
     )
 }
