@@ -25,7 +25,7 @@ const Profile = function(props) {
 
     return (
         <div className='card'>
-            <Navbar title="TEST"/>
+            {/* <Navbar title="TEST"/> */}
             <img className="card--img" src={props.img}/>
             <h1 className="card--name">{props.name}</h1>
             <h3 className="card--title">{props.title}</h3>

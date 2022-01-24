@@ -14,9 +14,9 @@ function App() {
     <div className="App">
       <Navbar title="Crazy Title Navbar Change"/>
       <Profile name="Mr Meows" title="Human Security Coordinator" img="https://i.redd.it/6xvh1f7btgl31.jpg"/>
-      <Profile name="Fluffers" title="Senior Nap Specialist" img="https://i.redd.it/7k24xova0ya11.jpg"/>
+      <Profile name="Cindy Zou" title="笨笨" img="https://i.redd.it/7k24xova0ya11.jpg"/>
       <Profile name="Floofers" title="Senior Intranet Executive" img="https://www.boredpanda.com/blog/wp-content/uploads/2021/11/618e14ec7b031_fndyxj23tku71__700.jpg"/>
-      <Profile name="Steward von Balphazar" title="District Program Orchestrator" img="https://i.imgur.com/DSCvjeO.jpg"/>
+      <Profile name="臭哥哥" title="District Program Orchestrator" img="https://i.imgur.com/DSCvjeO.jpg"/>
     </div>
   );
 }
